@@ -19,23 +19,16 @@ class Example {
         String path = "src/labs_examples/input_output/files/byte_data";
         String newPath = "src/labs_examples/input_output/files/newByte_data";
 
-
         FileOutputStream out = null;
         BufferedOutputStream bfOut = null;
 
         try {
             input  = new FileInputStream(path);
-
             bf = new BufferedInputStream(input);
-
             out = new FileOutputStream(newPath);
-
             bfOut = new BufferedOutputStream(out);
-
             byte[] buffer = new byte[5];
-
             int bytesRead = 0;
-
             while ((bytesRead = bf.read(buffer)) != -1) {
                    bfOut.write(buffer, 0 , bytesRead);
             }
@@ -45,7 +38,6 @@ class Example {
             e.printStackTrace();
         }
         finally {
-
             try {
                 bf.close();
                 input.close();

@@ -9,7 +9,7 @@ package labs_examples.input_output.examples;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-class ShowFile3 {
+class   ShowFile3 {
     public static void main(String args[])
     {
         int i;

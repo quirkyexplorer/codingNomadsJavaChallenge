@@ -12,7 +12,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 class CopyFile2 {
-    public static void main(String args[]) throws IOException
+    public static void main(String args[])
     {
         int i;
 

@@ -8,5 +8,7 @@ class WriteDemo {
         b = 'X';
         System.out.write(b);
         System.out.write('\n');
+
+        System.out.println(b);
     }
 }
