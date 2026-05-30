@@ -1,0 +1,11 @@
+Teacher Name,Dance Styles (Couples),Years of Experience,City/Country,Group Class Rate ($/hr),Private Lesson Rate ($/hr)
+Maria Gonzalez,"Salsa, Bachata, Cha-Cha",12,"Buenos Aires, Argentina",25,60
+James & Sofia Lee,"Tango, Waltz, Foxtrot",8,"New York, USA",40,90
+Carlos Mendez,"Bachata, Merengue, Salsa",5,"Bogotá, Colombia",20,50
+Anastasia Petrov,"Ballroom, Viennese Waltz, Quickstep",15,"Moscow, Russia",35,80
+Diego & Lucia Romero,"Tango Argentino, Milonga",20,"Montevideo, Uruguay",30,75
+Yuki Tanaka,"West Coast Swing, Lindy Hop",6,"Tokyo, Japan",45,100
+Priya & Arjun Sharma,"Bolero, Rumba, Paso Doble",10,"Mumbai, India",22,55
+Ethan Brooks,"Kizomba, Zouk, Semba",3,"London, UK",38,85
+Isabella Ferreira,"Samba de Gafieira, Forró",9,"São Paulo, Brazil",28,65
+Nikolai & Elena Volkov,"Competitive Ballroom, Latin",18,"Vienna, Austria",50,120

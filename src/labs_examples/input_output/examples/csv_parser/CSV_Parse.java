@@ -14,8 +14,6 @@ public class CSV_Parse {
 
         String filePath = "src/labs_examples/input_output/files/students.csv";
 
-
-
         try (BufferedReader br =
                      new BufferedReader(new FileReader(filePath))) {
 
@@ -25,17 +23,14 @@ public class CSV_Parse {
                 String[] values = line.split(",");
                 students.add(mapValuesToStudentObject(values));
             }
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         for(Student student : students){
             System.out.println(student.toString());
         }
-
     }
 
     private static Student mapValuesToStudentObject(String[] values) {
