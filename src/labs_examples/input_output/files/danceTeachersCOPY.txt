@@ -1,10 +1,10 @@
-1,"Maria Gonzalez,"Salsa, Bachata, Cha-Cha",12,"Buenos Aires, Argentina",25.00,60.00
-2,"James & Sofia Lee,"Tango, Waltz, Foxtrot",8,"New York, USA",40.00,90.00
-3,"Carlos Mendez,"Bachata, Merengue, Salsa",5,"Bogotá, Colombia",20.00,50.00
-4,"Anastasia Petrov,"Ballroom, Viennese Waltz, Quickstep",15,"Moscow, Russia",35.00,80.00
-5,"Diego & Lucia Romero,"Tango Argentino, Milonga",20,"Montevideo, Uruguay",30.00,75.00
-6,"Yuki Tanaka,"West Coast Swing, Lindy Hop",6,"Tokyo, Japan",45.00,100.00
-7,"Priya & Arjun Sharma,"Bolero, Rumba, Paso Doble",10,"Mumbai, India",22.00,55.00
-8,"Ethan Brooks,"Kizomba, Zouk, Semba",3,"London, UK",38.00,85.00
-9,"Isabella Ferreira,"Samba de Gafieira, Forró",9,"São Paulo, Brazil",28.00,65.00
-10,"Nikolai & Elena Volkov,"Competitive Ballroom, Latin",18,"Vienna, Austria",50.00,120.00
+1,Maria Gonzalez,"Salsa, Bachata, Cha-Cha",12,"Buenos Aires, Argentina",25.00,60.00
+2,James & Sofia Lee,"Tango, Waltz, Foxtrot",8,"New York, USA",40.00,90.00
+3,Carlos Mendez,"Bachata, Merengue, Salsa",5,"Bogotá, Colombia",20.00,50.00
+4,Anastasia Petrov,"Ballroom, Viennese Waltz, Quickstep",15,"Moscow, Russia",35.00,80.00
+5,Diego & Lucia Romero,"Tango Argentino, Milonga",20,"Montevideo, Uruguay",30.00,75.00
+6,Yuki Tanaka,"West Coast Swing, Lindy Hop",6,"Tokyo, Japan",45.00,100.00
+7,Priya & Arjun Sharma,"Bolero, Rumba, Paso Doble",10,"Mumbai, India",22.00,55.00
+8,Ethan Brooks,"Kizomba, Zouk, Semba",3,"London, UK",38.00,85.00
+9,Isabella Ferreira,"Samba de Gafieira, Forró",9,"São Paulo, Brazil",28.00,65.00
+10,Nikolai & Elena Volkov,"Competitive Ballroom, Latin",18,"Vienna, Austria",50.00,120.00

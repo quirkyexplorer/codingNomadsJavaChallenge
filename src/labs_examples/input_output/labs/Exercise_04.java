@@ -81,7 +81,7 @@ public class Exercise_04 {
 
         String firstLine = "ID,Teacher Name,Dance Styles (Couples),Years of Experience,City/Country,Private Lesson Rate ($/hr), Group Class Rate ($/hr)";
 
-        return String.format("%d,\"%s,\"%s\",%d,\"%s\",%.2f,%.2f",
+        return String.format("%d,%s,\"%s\",%d,\"%s\",%.2f,%.2f",
                 instructor.getId(),
                 instructor.getName(),
                 instructor.getStyles(),
