@@ -67,6 +67,4 @@ class MyThread implements Runnable {
             e.printStackTrace();
         }
     }
-
-
 }

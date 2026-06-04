@@ -8,7 +8,6 @@ class MyThread4 implements Runnable {
     // Construct a new thread.
     MyThread4(String name) {
         thrd = new Thread(this, name);
-
         thrd.start(); // start the thread
     }
 

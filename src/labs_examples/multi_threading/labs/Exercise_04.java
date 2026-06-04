@@ -17,10 +17,8 @@ class Excercise_04 {
         SyncRun sr3 = new SyncRun("thread 3", ct);
     }
 }
-
 class SharedCounter {
     private int counter = 0;
-
     public SharedCounter() {
     }
     public void increment() {
@@ -29,31 +27,32 @@ class SharedCounter {
     public int getCounter() {
         return this.counter;
     }
+    public void setCounter() {
+        this.counter = 0;
+    };
 }
-
 class SyncRun extends Thread {
     SharedCounter ct;
     String name;
-
     public SyncRun(String name, SharedCounter ct) {
         this.ct = ct;
         this.name = name;
         start();
     }
     public void run() {
-        for(int i = 0; i < 5; i++) {
-            synchronized (ct) {
+
+        synchronized (ct) {
+            for (int i = 0; i < 5; i++) {
                 ct.increment();
                 System.out.println("counter is: " + ct.getCounter() + " " + this.name + " " + getName() + " updated resource");
             }
+            System.out.println("Thread finished" + this.name + "total count: " + ct.getCounter());
+            ct.setCounter();
         }
-        System.out.println("Thread finished" + this.name);
     }
 }
-
 // demonstrates synchronization
 class MythreadEx4 extends Thread {
-
     public MythreadEx4 (){
         super("Jonathan");
         start();

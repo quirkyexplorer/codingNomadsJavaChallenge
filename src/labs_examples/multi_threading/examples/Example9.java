@@ -13,7 +13,7 @@ class SumArray2 {
                     Thread.currentThread().getName() +
                     " is " + sum);
             try {
-                Thread.sleep(10); // allow task-switch
+                Thread.sleep(400); // allow task-switch
             }
             catch(InterruptedException exc) {
                 System.out.println("Thread interrupted.");
@@ -30,10 +30,12 @@ class gfMyThread7 implements Runnable {
     int a[];
     int answer;
     // Construct a new thread.
-    gfMyThread7(String name, int nums[]) {
+    gfMyThread7(String name, int nums[], int priority) {
         thrd = new Thread(this, name);
+        thrd.setPriority(priority);
         a = nums;
         thrd.start(); // start the thread
+
     }
     // Begin execution of new thread.
     public void run() {
@@ -42,11 +44,13 @@ class gfMyThread7 implements Runnable {
         // synchronize calls to sumArray()
         synchronized(sa) {
             answer = sa.sumArray2(a);
+            System.out.println("Sum for " + thrd.getName() +
+                    " is " + answer);
+            System.out.println(thrd.getName() + " terminating.");
+
         }
   //      answer = sa.sumArray2(a);
-        System.out.println("Sum for " + thrd.getName() +
-                " is " + answer);
-        System.out.println(thrd.getName() + " terminating.");
+
     }
 }
 
@@ -55,8 +59,8 @@ class Sync2 {
     public static void main(String args[]) {
         int a[] = {1, 2, 3, 4, 5};
         int b[] = {5, 6, 7, 8, 9};
-        gfMyThread7 mt1 = new gfMyThread7("Child #1", a);
-        gfMyThread7 mt2 = new gfMyThread7("Child #2", a);
+        gfMyThread7 mt1 = new gfMyThread7("Child #1", a, 1);
+        gfMyThread7 mt2 = new gfMyThread7("Child #2", a, 10);
         try {
             mt1.thrd.join();
             // here main thread is waiting for mt1 to finish runningn
